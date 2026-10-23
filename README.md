@@ -1,5 +1,7 @@
 # FarmTwin AI
 
+Repository: <https://github.com/xw557206/Final-Project---FarmTwin-AI>
+
 FarmTwin AI is a local-first virtual farm management foundation for the Yale SOM MGT 409 AI Agents project. It provides a seeded Connecticut demonstration farm, a relational SQLite database, FastAPI endpoints, a responsive React dashboard, an interactive database-driven SVG farm map, weather intelligence, deterministic financial management, and auditable seasonal pricing.
 
 All seeded operational and financial records are clearly marked `SYNTHETIC`. Weather is labeled by provider/data status. Step 8 adds bounded, observable AI orchestration; deterministic farm services remain authoritative for all calculations and state changes.
