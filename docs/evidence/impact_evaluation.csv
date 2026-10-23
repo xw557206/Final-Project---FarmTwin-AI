@@ -1,0 +1,4 @@
+evaluation_type,manual_seconds,farmtwin_seconds,time_saved_seconds,percent_reduction,status,notes
+real_user_test,,,,,NOT_RUN,No participant measurement collected
+controlled_internal_benchmark,,,,,NOT_RUN,No live workflow measurement collected
+scenario_estimate,,,,,NOT_RUN,Estimates are intentionally not invented

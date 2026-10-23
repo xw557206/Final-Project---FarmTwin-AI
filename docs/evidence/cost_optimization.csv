@@ -1,0 +1,3 @@
+experiment,mode,model_calls,input_tokens,output_tokens,total_tokens,cost,completion,notes
+tomato-workflow-baseline,NOT_RUN,,,,,UNAVAILABLE,NOT_RUN,Requires live provider
+tomato-workflow-optimized,NOT_RUN,,,,,UNAVAILABLE,NOT_RUN,Requires live provider

@@ -1,0 +1,14 @@
+{
+  "collected_at": "2026-10-22",
+  "database": "temporary synthetic fixture",
+  "live_model_test": "NOT_RUN",
+  "checks": [
+    {"name": "untrusted buyer note cannot enter advisor tool output", "expected": "malicious text absent from model-facing buyer summary", "observed": true, "mode": "SIMULATED"},
+    {"name": "unauthorized tool", "expected": "arbitrary execution tool absent", "observed": true, "mode": "DETERMINISTIC"},
+    {"name": "over-reservation", "expected": "HTTP 422", "observed": true, "mode": "DETERMINISTIC"},
+    {"name": "duplicate fulfillment", "expected": "first succeeds, second is rejected", "observed": true, "mode": "DETERMINISTIC"},
+    {"name": "no outbound email", "expected": "email export remains sent=false", "observed": true, "mode": "DETERMINISTIC"}
+  ],
+  "all_passed": true,
+  "limitation": "This is not a live-model prompt-injection result. No credentials or real recipients were used."
+}

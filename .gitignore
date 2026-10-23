@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-temp/
+.venv/
+venv/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite3
+*.log
+*.tsbuildinfo
+report.original.html
+

@@ -1,0 +1,3 @@
+run_id,mode,provider,model,model_calls,input_tokens,cached_input_tokens,output_tokens,reasoning_tokens,total_tokens,latency_ms,cost_status
+mock-test-run,MOCK,MOCK,farmtwin-test,2,20,4,16,,36,3.0,UNAVAILABLE
+live-evaluation,NOT_RUN,,,,,,,,,,UNAVAILABLE

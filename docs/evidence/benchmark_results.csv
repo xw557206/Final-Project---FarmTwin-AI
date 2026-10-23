@@ -1,0 +1,7 @@
+scenario,required_tools,mode,status,objective_check,notes
+weather-risk,get_farm_weather|evaluate_weather_risks,MOCK_CATALOG,NOT_RUN,defined,Live provider unavailable
+tomato-profitability,get_farm_financial_summary,MOCK_CATALOG,NOT_RUN,defined,Uses synthetic ledger when executed
+seasonal-price,get_product_pricing,MOCK_CATALOG,NOT_RUN,defined,Uses deterministic pricing records
+inventory-buyers,get_farm_inventory_summary|get_matching_buyers,MOCK_CATALOG,NOT_RUN,defined,Potential opportunities only
+crop-allocation,Decision Simulator,NOT_IMPLEMENTED,NOT_RUN,undefined,Read-only simulator remains incomplete
+tomato-end-to-end,weather|production|finance|pricing|sales,MOCK_CATALOG,NOT_RUN,defined,Requires authorized live model for genuine evidence
